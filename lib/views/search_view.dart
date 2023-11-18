@@ -23,20 +23,6 @@ class SearchView extends StatelessWidget {
                 var getWeatherCubit = BlocProvider.of<GetWeatherCubit>(context);
                 getWeatherCubit.getWeather(cityName: value);
                 Navigator.pop(context);
-
-                // WeatherModel weatherModel = await WeatherService(dio: Dio())
-                //     .getCurrentWeather(cityName: value);
-
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) {
-                //       return HomeView(
-                //         weatherModel: weatherModel,
-                //       );
-                //     },
-                //   ),
-                // );
               },
               decoration: InputDecoration(
                 contentPadding: const EdgeInsets.symmetric(
@@ -52,13 +38,6 @@ class SearchView extends StatelessWidget {
               ),
             ),
           ),
-          const Padding(
-            padding: EdgeInsets.only(bottom: 20),
-            child: Text(
-              'Made by Heba',
-              style: TextStyle(fontSize: 18),
-            ),
-          )
         ],
       ),
     );

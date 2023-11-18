@@ -41,7 +41,6 @@ class HomeViewWidget extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-
                 Text(
                   weatherModel.weatherCondition,
                   style: const TextStyle(fontSize: 24),
@@ -68,23 +67,9 @@ class HomeViewWidget extends StatelessWidget {
                     ),
                   ],
                 ),
-
-                // CircleAvatar(
-                //   backgroundImage: NetworkImage('https:${weatherModel.image}'),
-                // ),
-                // Image.network(
-                //   'https:${weatherModel.image}',
-                //   height: 100,
-                //   width: 100,
-                // ),
                 const SizedBox(
                   height: 35,
                 ),
-                // Text(
-                //   '${weatherModel.temp.round().toString()}°C',
-                //   style: const TextStyle(
-                //       fontSize: 72, fontWeight: FontWeight.bold),
-                // ),
                 const SizedBox(
                   height: 20,
                 ),
@@ -94,13 +79,6 @@ class HomeViewWidget extends StatelessWidget {
                     fontSize: 24,
                   ),
                 ),
-                // const SizedBox(
-                //   height: 20,
-                // ),
-                // Text(
-                //   '${weatherModel.date.month}/${weatherModel.date.day}/${weatherModel.date.year}',
-                //   style: const TextStyle(fontSize: 24),
-                // ),
                 const SizedBox(
                   height: 20,
                 ),

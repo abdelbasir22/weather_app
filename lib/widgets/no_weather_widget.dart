@@ -14,17 +14,10 @@ class NoWeatherWidget extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // const Text(
-            //   'there is no weather 😔 ',
-            //   style: TextStyle(
-            //     fontSize: 30,
-            //   ),
-            // ),
             Image.asset('assets/images/Group 16.png'),
             const SizedBox(
               height: 20,
             ),
-
             const Text(
               'search for a city now',
               style: TextStyle(
@@ -34,7 +27,6 @@ class NoWeatherWidget extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-
             ElevatedButton(
                 style: const ButtonStyle(
                   padding: MaterialStatePropertyAll(
@@ -55,19 +47,6 @@ class NoWeatherWidget extends StatelessWidget {
                   'start',
                   style: TextStyle(fontSize: 22),
                 ))
-            // IconButton(
-            //   onPressed: () {
-            //     Navigator.of(context).push(
-            //       MaterialPageRoute(
-            //         builder: (context) {
-            //           return const SearchView();
-            //         },
-            //       ),
-            //     );
-            //   },
-            //   icon: const Icon(Icons.search),
-            //   iconSize: 50,
-            // ),
           ],
         ),
       ),
