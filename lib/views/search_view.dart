@@ -38,6 +38,13 @@ class SearchView extends StatelessWidget {
               ),
             ),
           ),
+          const Padding(
+            padding: EdgeInsets.only(bottom: 20),
+            child: Text(
+              'Made by Mohamed',
+              style: TextStyle(fontSize: 18),
+            ),
+          ),
         ],
       ),
     );
